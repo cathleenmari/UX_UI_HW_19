@@ -1,0 +1,296 @@
+#dropDown {
+  display: none;
+  position: absolute;
+}
+
+#toggle {
+  color: black;
+  font-weight: bold;
+  cursor: pointer; 
+}
+
+a {
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+a:hover {
+  border-bottom-style: solid;
+  border-color: #00E650;
+}
+
+ul {
+  margin:0;
+  padding: 0;
+  list-style-type:none;
+  background-color: white;
+}
+
+li {
+  margin:0;
+  padding: 15px;
+}
+
+li:hover {
+  background-color: #00E650;
+}
+
+
+.contact {
+width: 126px;
+height: 40px;
+background: #00E650;
+margin-top: -40px;
+margin-left: 10px;
+border-color: transparent;
+border-radius: 5px;
+font-family: 'Libre Franklin', sans-serif;
+font-size: 14px;
+transition: all .2s ease-in-out; 
+font-weight: bold;
+
+
+}
+
+.contact:hover {
+    transform: scale(1.1); 
+}
+
+.navbar {
+    padding: 40px 20px 20px 20px;
+    float: right;
+    text-decoration:none;
+    color:black;
+    font-weight: bold;
+}
+
+
+
+.logo {
+    display:inline-block;
+    margin-top: 20px;
+}
+
+body{
+    margin: 0px 100px 0px 100px;
+    font-family: 'Libre Franklin', sans-serif;
+}   
+
+h1 {
+    font-size: 48px;
+    font-weight: 800;
+    line-height: 55px;
+}
+
+h2 {
+  font-size: 24px;
+  font-weight: 800;
+  line-height: 35px;
+}
+
+
+h3 {
+    font-size: 22px;
+    font-weight: 800;
+    line-height: 35px;
+  }
+
+p {
+  font-size: 18px;
+  line-height: 25px
+}
+
+* {
+    box-sizing: border-box;
+  }
+  
+  .row {
+    margin-top: 50px;
+    padding-bottom: 100px;
+  }
+  
+  .column {
+    float: left;
+    width: 50%;
+    padding-left: 10px;
+    padding-bottom: 20px;
+    padding-right: 40px;
+    min-height: 300px;
+  }
+
+  .hero-column{
+    float: left;
+    width: 50%;
+    background-color: blue;
+    color: white;
+    padding-left: 60px;
+    padding-bottom: 3%;
+    padding-right: 40px;
+    min-height: 300px;
+  }
+
+  .resume {
+    width: 50%;
+    height: 40px;
+    background: #00E650;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    font-weight: bold;
+    border-color: transparent;
+    border-radius: 5px;
+    font-family: 'Libre Franklin', sans-serif;
+    font-size: 14px;
+    transition: all .2s ease-in-out; 
+    }
+
+    .resume:hover {
+        transform: scale(1.1); 
+    }
+
+    .CaseStudyButton {
+        border-radius: 4px;
+        background-color: blue;
+        font-family: 'Libre Franklin', sans-serif;
+        border: none;
+        color: white;
+        text-align: center;
+        padding: 20px;
+        width: 200px;
+        transition: all 0.5s;
+        cursor: pointer;
+        margin: 5px;
+      }
+      
+      .CaseStudyButton span {
+        cursor: pointer;
+        display: inline-block;
+        position: relative;
+        transition: 0.5s;
+      }
+      
+      .CaseStudyButton span:after {
+        content: '\279D';
+        position: absolute;
+        opacity: 0;
+        top: 0;
+        right: -20px;
+        transition: 0.5s;
+      }
+      
+      .CaseStudyButton:hover span {
+        padding-right: 25px;
+      }
+      
+      .CaseStudyButton:hover span:after {
+        opacity: 1;
+        right: 0;
+      }
+
+.button {
+  border-radius: 4px;
+  background-color: #f4511e;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 28px;
+  padding: 20px;
+  width: 200px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+ }
+
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button span:after {
+  content: '\279D';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button:hover span {
+  padding-right: 25px;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+
+    hr {
+        margin-top: 500px;
+    }
+
+ .hero-column {
+  float:right;
+ }   
+
+    .Section {
+      float: left;
+      width: 45%;
+      padding-left: 100px;
+      padding-top: 40px;
+      padding-bottom: 20px;
+      height: 800px;
+      margin-right: 10px;
+      background-color: black;
+    }
+    
+    .SectionTitle {
+      color: white;
+      font-size: 48px;
+      padding-left: 30px;
+      margin-top: -60px;
+    }
+      
+    #square {
+        width: 100px;
+        height: 100px;
+        background: blue;
+        position: relative;
+        margin-left: -150px;
+        margin-top: 48px;
+      
+      }
+      
+      #square:hover {
+        background-color: #00E650;
+        cursor: crosshair;
+        -webkit-transition: background-color 2s ease-out;
+        -moz-transition: background-color 2s ease-out;
+        -o-transition: background-color 2s ease-out;
+        transition: background-color 2s ease-out;
+      }
+
+      .card {
+        color: black;
+        padding: 1rem;
+        height: 500px;
+      }
+      
+      .CaseStudies {
+        max-width: 600px;
+        margin: 0 auto;
+        display: grid;
+        float:right;
+           grid-gap: 50px;
+      }
+      
+      @media (min-width: 500px) {
+         .CaseStudies { grid-template-columns: repeat(2, 1fr); 
+           }
+         
+        .Section {
+          max-height: 400px;
+          width: 40%;
+      }
+      
